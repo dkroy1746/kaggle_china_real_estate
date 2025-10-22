@@ -57,7 +57,8 @@ Below is a sample plot comparing the **real data** and the **model predictions**
 The distribution shows that while most predictions align well with the lower and mid-range demand, there is still some underestimation in extreme high-price regions which is a common challenge in real estate forecasting due to data imbalance.
 
 <br>
-Here is a plot comparing the **feature importance** of **top 5 features**:
+
+Here is a plot comparing the __feature importance__ of **top 5 features**:
 
 <img src="features_left_joins_incl_city_search.png" alt="drawing" width="700"/>
 
@@ -65,9 +66,11 @@ The bar plot shows that the area of houses being transacted and the number of tr
 
 
 <br>
+
 This plot compares the trend of **real estate prices** and the features **area of houses** and **number of transactions** with time in a particular sector:
 
 <img src="features_prices_left_joins_incl_city_search.png" alt="drawing" width="700"/>
+
 - **Red line:** Real estate prices (target)
 - **Blue line:** Area of houses transacted  
 - **Cyan line:** No. of transactions 
@@ -96,15 +99,15 @@ There is a clear correlation between the real estate prices and the features in 
 ---
 
 ## 📈 Key Insights
-- Ensemble-based models (Random Forest) offer **robust baseline predictions** with minimal tuning.  
+- Ensemble-based model i.e. Random Forest offers **robust baseline predictions** with minimal tuning.  
 - Neural Networks capture **nonlinear dependencies** but may require more data normalization and hyperparameter tuning to generalize effectively.
-- We were able to determine the main driving factors of real estate prices.
+- We were able to determine the main driving factors of real estate prices and successfully trained and tested our models.
+- A MAPE (Mean Absolute Percentage Error) value of ~ 10% implies that both the models are performing satisfactorily.
 
 ---
 
 ## 🚀 Future Work
 - Integrate additional **macroeconomic and demographic data** sources.  
-- Implement **time-series forecasting architectures** such as LSTM or Temporal Fusion Transformers.  
-- Deploy the model as a **web-based prediction service** for real-estate analytics.
+- Implement **time-series forecasting architectures** such as LSTM or Temporal Fusion Transformers.
 
 ---
